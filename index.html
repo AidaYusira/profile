@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aida Yusira | Portfolio</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+<header>
+<div class="logo">Aida Yusira</div>
+
+<nav id="menu">
+<a href="#home" data-id="Home" data-en="Home">Home</a>
+<a href="#about" data-id="Tentang" data-en="About">Tentang</a>
+<a href="#skill" data-id="Skill" data-en="Skill">Skill</a>
+<a href="#project" data-id="Project" data-en="Projects">Project</a>
+<a href="#contact" data-id="Kontak" data-en="Contact">Kontak</a>
+</nav>
+
+<div class="tools">
+<button onclick="toggleDarkMode()">🌙</button>
+<button onclick="setLang('id')">🇮🇩</button>
+<button onclick="setLang('en')">🇬🇧</button>
+<div class="hamburger" onclick="toggleMenu()">☰</div>
+</div>
+</header>
+
+<section class="hero" id="home">
+<div class="hero-text">
+<h3 id="hello">Halo, Saya</h3>
+<h1 id="typing"></h1>
+<p id="heroDesc">
+Mahasiswa Teknik Informatika yang memiliki minat pada pengembangan website modern dan teknologi digital.
+</p>
+</div>
+
+<div class="hero-img">
+<img src="foto.jpeg">
+</div>
+</section>
+
+<section id="about">
+<h2 id="aboutTitle">Tentang Saya</h2>
+<p id="aboutText">
+Saya adalah mahasiswa semester 4 Teknik Informatika di Universitas Jabal Ghafur.
+Saya memiliki minat dalam pengembangan web, desain UI modern, dan teknologi digital.
+</p>
+</section>
+
+<section id="skill">
+<h2>Skills</h2>
+
+<div class="skill">
+<p>HTML</p>
+<div class="bar"><span style="width:90%"></span></div>
+</div>
+
+<div class="skill">
+<p>CSS</p>
+<div class="bar"><span style="width:85%"></span></div>
+</div>
+
+<div class="skill">
+<p>PHP</p>
+<div class="bar"><span style="width:80%"></span></div>
+</div>
+
+<div class="skill">
+<p>JavaScript</p>
+<div class="bar"><span style="width:65%"></span></div>
+</div>
+
+</section>
+
+<section id="project">
+<h2 id="projectTitle">Project Saya</h2>
+
+<div class="project-grid">
+
+<div class="project-card">
+<img src="myflix.jpeg">
+<div class="project-content">
+<h3>MyFlix</h3>
+<p id="p1">Website rekomendasi film modern dan responsive.</p>
+<a href="https://aidayusira.github.io/myflix/" target="_blank">Lihat Project</a>
+</div>
+</div>
+
+<div class="project-card">
+<img src="casavela.jpeg">
+<div class="project-content">
+<h3>CasaVela</h3>
+<p id="p2">Website desain modern bertema elegan.</p>
+<a href="https://aidayusira.github.io/casavela/" target="_blank">Lihat Project</a>
+</div>
+</div>
+
+<div class="project-card">
+<img src="studyflow.jpeg">
+<div class="project-content">
+<h3>StudyFlow</h3>
+<p id="p3">Website manajemen belajar dengan tampilan clean modern.</p>
+<a href="https://aidayusira.github.io/studyflow/" target="_blank">Lihat Project</a>
+</div>
+</div>
+
+</div>
+</section>
+
+<section id="contact">
+<h2 id="contactTitle">Kontak</h2>
+
+<div class="contact-grid">
+<a href="mailto:aida260121@gmail.com" class="contact-card"><i class="fas fa-envelope"></i>Email : aida260121@gmail.com</a>
+<a href="https://wa.me/6282273632828" target="_blank" class="contact-card"><i class="fab fa-whatsapp"></i>WhatsApp : +6282273632828</a>
+<a href="https://instagram.com/aidaysraa" target="_blank" class="contact-card"><i class="fab fa-instagram"></i>Instagram : aidaysraa</a>
+<a href="https://github.com/aidayusira" target="_blank" class="contact-card"><i class="fab fa-github"></i>GitHub : AidaYusira</a>
+</div>
+
+</section>
+
+<footer>
+<p>© <span id="year"></span> Aida Yusira</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
